@@ -216,6 +216,15 @@ table tr td {
   #group_bandet {
     
   }
+
+  #group_nyheter .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #group_nyheter img {
+    max-width: 100%;
+  }
   
   
   #group_medlemmar {
