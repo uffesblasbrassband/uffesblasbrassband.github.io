@@ -7,7 +7,7 @@ body{
 }
 
 #page{
-    
+
 }
 
 a{
@@ -66,26 +66,30 @@ table tr td {
     clear: both;
 }
 
+.flex-container {
+  display: flex;
+}
+
 .full_width{
     position: relative;
     width: 100%;
     background-color: #FBFBFB;
     margin: 0;
     padding: 10px 0px 25px 0px;
-    
+
     -moz-box-shadow: 3px 3px 23px rgba(0,0,0,1);
     -webkit-box-shadow: 3px 3px 23px rgba(0,0,0,1);
     box-shadow: 3px 3px 23px rgba(0,0,0,1);
-    
+
     z-index: 5;
-    
+
     /*-webkit-transform:  translateZ(0);
     -moz-transform:     translateZ(0);
     -ms-transform:      translateZ(0);
     -o-transform:       translateZ(0);
     transform:          translateZ(0);
     z-index: 4;*/
-  
+
 }
 
 .anchor{
@@ -101,7 +105,7 @@ table tr td {
 }
 
 .content p{
-    
+
 }
 
 .content h2{
@@ -112,7 +116,7 @@ table tr td {
     .content{
         width: 100%;
     }
-    
+
     .content .content_inner{
         margin-left: 0px;
         padding-right: 50px;
@@ -157,11 +161,11 @@ table tr td {
     /*-webkit-transform: translateZ(0);
     transform: translateZ(0);
     z-index: 4;*/
-    
+
     -moz-box-shadow: 0px 3px 23px rgba(0,0,0,1);
     -webkit-box-shadow: 0px 3px 23px rgba(0,0,0,1);
     box-shadow: 0px 3px 23px rgba(0,0,0,1);
-    
+
     height: fit-content;
     min-height: 50vh;
   }
@@ -179,15 +183,15 @@ table tr td {
   }
 
 
-  
+
 
   /* style the groups
   --------------------------------------------- */
-  
+
   .content_group{
     z-index: 10;
   }
-  
+
   .content_group .parallax__layer--base {
     background: #fff;
   }
@@ -208,112 +212,111 @@ table tr td {
     min-height: 50px;
     color: #fff;
   }
-  
+
   #group1 a{
     color: #fff;
   }
 
   #group_bandet {
-    
+
   }
 
   #group_nyheter .flex-container {
-    display: flex;
     flex-direction: column;
   }
 
   #group_nyheter img {
     max-width: 100%;
   }
-  
-  
+
+
   #group_medlemmar {
-    
+
   }
-  
+
   #group_medlemmar h2{
     text-align: center;
   }
-  
+
   #group_medlemmar table{
     position: relative;
     margin: 0px auto 50px auto;
   }
-  
+
   #group_medlemmar table td{
     padding-left: 30px;
   }
-  
+
   #group_medlemmar table td h3{
     text-align: center;
     width: 100%;
   }
-  
-  
+
+
   #group_kalender {
-    
+
   }
-  
+
   #group_kalender h2{
     text-align: center;
   }
-  
+
   #group_kalender table{
     position: relative;
     margin: 0px auto 50px auto;
   }
-  
+
   #group_kalender table td{
     padding-left: 30px;
     padding-bottom: 20px;
   }
-  
+
   #group_dirigent img{
       float: left;
       margin-right: 20px;
       max-width: 100%;
   }
-  
+
   #group_styrelse .content_inner{
     text-align: center;
   }
-  
+
   #group_styrelse table{
     position: relative;
     margin: 0px auto 50px auto;
     text-align: left;
   }
-  
+
   #group_styrelse table td{
     padding-left: 30px;
   }
-  
+
   #group_media{
     text-align: center;
   }
-  
+
   #group_media img{
     padding: 20px 0px;
     max-width: 100%;
   }
-  
+
   #group_media iframe{
     padding: 20px 0px;
   }
-  
+
   #youtube_sm17{
     max-width: 100%;
   }
-  
+
   #group_kontakt h2{
     text-align: center;
     margin-bottom: 100px;
   }
-  
+
   #group_kontakt .content_inner{
     text-align: center;
   }
-  
+
   #group_kontakt a{
     display: block;
     margin: 10px;
@@ -323,6 +326,7 @@ table tr td {
     z-index: 10; /* slide over group 7 */
     min-height: 0px;
   }
+
   #footer .parallax__layer--base {
     background: #4e69a2;
     background: -moz-linear-gradient(top, #4e69a2 0%, #3b5998 100%);
@@ -335,25 +339,40 @@ table tr td {
     min-height: 200px;
     color: #fff;
   }
-  
-  #footer img{
-    margin: 45px;
-    vertical-align: middle;
+
+  #footer .flex-container {
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
   }
-  
+
+  #footer .flex-item {
+    flex-direction: row;
+    width: 100%;
+    min-width: 0;
+    max-width: 300px;
+  }
+
+  #footer img {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 45px;
+  }
+
   .social_media{
     text-align: right;
     display: block;
   }
-  
+
   .social_media img{
     margin: 7px;
   }
-  
+
   #footer .social_media img{
     margin: 13px;
   }
-  
+
 .bg:nth-of-type(2) .parallax__layer--back {
     background-image: url(../images/bg/band.jpg);
 }
@@ -369,7 +388,7 @@ table tr td {
 .bg:nth-of-type(8) .parallax__layer--back {
     background-image: url(../images/bg/tuba.jpg);
 }
-  
+
 .bg:nth-of-type(10) .parallax__layer--back {
     background-image: url(../images/bg/band.jpg);
 }
@@ -397,7 +416,7 @@ table tr td {
 .bg:nth-of-type(22) .parallax__layer--back {
     background-image: url(../images/bg/tuba.jpg);
 }
-  
+
 .bg{
     height: 400px;
 }
@@ -405,7 +424,7 @@ table tr td {
 .bg_overflow{
     overflow: hidden;
     height: 400px;
-    
+
 }
 
 .logo{
@@ -427,7 +446,7 @@ table tr td {
 }
 
 #nav ul li .text{
-    
+
 }
 
 #footer{
@@ -438,11 +457,11 @@ table tr td {
   #group_dirigent .content_inner{
       text-align: center;
   }
-  
+
   .content .content_inner h2{
         text-align: center;
     }
-  
+
   #group_dirigent img{
     margin-right: 0px;
       float: none;
@@ -462,13 +481,13 @@ table tr td {
       width: 100%;
       text-align: center;
     }
-    
+
     #nav{
       float: none;
       width: 100%;
       text-align: center;
     }
-    
+
     .social_media{
       text-align: center;
     }
