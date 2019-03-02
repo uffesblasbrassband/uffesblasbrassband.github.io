@@ -6,21 +6,24 @@ body {
   color: #545454;
 }
 
-a {
-  color: #4c4c52;
-  text-decoration: underline;
-}
-
-a:link {
-  color: #4c4c52;
-}
-
+a,
 a:visited {
-  color: #414552;
+  color: #4e69a2;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
 }
 
 a:hover {
   color: #65656d;
+  text-decoration: underline;
+}
+a img {
+  border: none;
+}
+
+a:link {
+  color: #4c4c52;
 }
 
 a:active {
@@ -32,6 +35,7 @@ h1 {
   font-weight: bold;
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.01);
 }
+
 h2 {
   color: #545454;
   font-size: 16px;
@@ -39,20 +43,6 @@ h2 {
 p {
   text-align: justify;
   line-height: 150%;
-}
-a,
-a:visited,
-a b {
-  color: #4e69a2;
-  text-decoration: none;
-  cursor: pointer;
-  outline: none;
-}
-a:hover {
-  text-decoration: underline;
-}
-a img {
-  border: none;
 }
 
 table tr td {
