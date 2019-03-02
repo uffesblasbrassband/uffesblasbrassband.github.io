@@ -67,27 +67,6 @@ table tr td {
   display: flex;
 }
 
-.full_width {
-  position: relative;
-  width: 100%;
-  background-color: #fbfbfb;
-  margin: 0;
-  padding: 10px 0px 25px 0px;
-
-  -moz-box-shadow: 3px 3px 23px rgba(0, 0, 0, 1);
-  -webkit-box-shadow: 3px 3px 23px rgba(0, 0, 0, 1);
-  box-shadow: 3px 3px 23px rgba(0, 0, 0, 1);
-
-  z-index: 5;
-
-  /*-webkit-transform:  translateZ(0);
-    -moz-transform:     translateZ(0);
-    -ms-transform:      translateZ(0);
-    -o-transform:       translateZ(0);
-    transform:          translateZ(0);
-    z-index: 4;*/
-}
-
 .anchor {
   position: absolute;
 }
@@ -137,23 +116,11 @@ table tr td {
 
 .parallax__layer {
   position: absolute;
-  /*top: 0;*/
   left: 0;
   right: 0;
-  /*bottom: 0;*/
 }
 
-/*.parallax__layer--fore {
-    -webkit-transform: translateZ(90px) scale(.7);
-    transform: translateZ(90px) scale(.7);
-    z-index: 1;
-  }*/
-
 .parallax__layer--base {
-  /*-webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    z-index: 4;*/
-
   -moz-box-shadow: 0px 3px 23px rgba(0, 0, 0, 1);
   -webkit-box-shadow: 0px 3px 23px rgba(0, 0, 0, 1);
   box-shadow: 0px 3px 23px rgba(0, 0, 0, 1);
@@ -231,11 +198,6 @@ table tr td {
 
 #group_medlemmar table td {
   padding-left: 30px;
-}
-
-#group_medlemmar table td h3 {
-  text-align: center;
-  width: 100%;
 }
 
 #group_kalender h2 {
@@ -354,10 +316,6 @@ table tr td {
 
 .social_media img {
   margin: 7px;
-}
-
-#footer .social_media img {
-  margin: 13px;
 }
 
 .bg:nth-of-type(2) .parallax__layer--back {
