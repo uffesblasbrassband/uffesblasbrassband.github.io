@@ -6,9 +6,6 @@ body {
   color: #545454;
 }
 
-#page {
-}
-
 a {
   color: #4c4c52;
   text-decoration: underline;
@@ -101,9 +98,6 @@ table tr td {
   max-width: 100%;
   position: relative;
   margin: 0 auto;
-}
-
-.content p {
 }
 
 .content h2 {
@@ -218,18 +212,12 @@ table tr td {
   color: #fff;
 }
 
-#group_bandet {
-}
-
 #group_nyheter .flex-container {
   flex-direction: column;
 }
 
 #group_nyheter img {
   max-width: 100%;
-}
-
-#group_medlemmar {
 }
 
 #group_medlemmar h2 {
@@ -248,9 +236,6 @@ table tr td {
 #group_medlemmar table td h3 {
   text-align: center;
   width: 100%;
-}
-
-#group_kalender {
 }
 
 #group_kalender h2 {
@@ -444,9 +429,6 @@ table tr td {
 #nav ul li {
   list-style: none;
   display: inline-block;
-}
-
-#nav ul li .text {
 }
 
 #footer {
