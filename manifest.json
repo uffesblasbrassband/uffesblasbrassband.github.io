@@ -1,5 +1,6 @@
 {
-    "name": "",
+    "name": "Uffes blås brassband",
+    "short_name": "Uffes blås brassband",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -14,5 +15,5 @@
     ],
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
-    "display": "standalone"
+    "display": "browser"
 }
