@@ -364,6 +364,7 @@ table tr td {
 .logo {
   float: left;
   padding: 15px 0px;
+  max-width: 200px;
 }
 
 #nav {
