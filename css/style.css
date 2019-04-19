@@ -45,8 +45,15 @@ p {
   line-height: 150%;
 }
 
+table {
+  position: relative;
+  margin: 0px auto 50px auto;
+  text-align: left;
+}
+
 table tr td {
   vertical-align: top;
+  padding-left: 30px;
 }
 
 .clear {
@@ -150,8 +157,6 @@ table tr td {
   min-height: 50px;
 }
 
-
-
 #group_nyheter .flex-container {
   flex-direction: column;
 }
@@ -164,26 +169,11 @@ table tr td {
   text-align: center;
 }
 
-#group_medlemmar table {
-  position: relative;
-  margin: 0px auto 50px auto;
-}
-
-#group_medlemmar table td {
-  padding-left: 30px;
-}
-
 #group_kalender h2 {
   text-align: center;
 }
 
-#group_kalender table {
-  position: relative;
-  margin: 0px auto 50px auto;
-}
-
 #group_kalender table td {
-  padding-left: 30px;
   padding-bottom: 20px;
 }
 
@@ -195,16 +185,6 @@ table tr td {
 
 #group_styrelse .content_inner {
   text-align: center;
-}
-
-#group_styrelse table {
-  position: relative;
-  margin: 0px auto 50px auto;
-  text-align: left;
-}
-
-#group_styrelse table td {
-  padding-left: 30px;
 }
 
 #group_media {
