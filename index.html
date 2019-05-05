@@ -43,7 +43,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
     <link rel="manifest" href="manifest.json" />
     <link rel="mask-icon" href="safari-pinned-tab.svg" color="#4e69a2" />
-    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797" />
     <meta name="theme-color" content="#ffffff" />
 
     <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -104,7 +104,6 @@
                       <li><a href="#kalender">Kalender</a></li>
                       <li><a href="#media">Media</a></li>
                       <li><a href="#styrelse">Styrelse</a></li>
-                      <li><a href="#dirigent">Dirigent</a></li>
                       <li><a href="#kontakt">Kontakt</a></li>
                     </ul>
                     <div class="social_media">
@@ -509,85 +508,6 @@
           <div class="parallax__layer parallax__layer--back"></div>
         </div>
       </div>
-      <div id="group_dirigent" class="parallax__group content_group">
-        <a id="dirigent" class="anchor"></a>
-        <div class="parallax__layer parallax__layer--base">
-          <div class="content">
-            <div class="content_inner">
-              <h2>Dirigent</h2>
-              <img src="images/andreas_kratz.jpg" alt="Andreas Kratz" />
-              <p>
-                Andreas Kratz was born in Tranås 1979. He is raised within the
-                Salvation Army and started playing in the Tranås Band of the
-                Salvation Army at an early age under his father Torbjörn.
-                1997-2000, Andreas studied trombone at the Academy of Music and
-                Drama, University of Gothenburg, where he studied with Professor
-                Ingemar Roos. Between 2003-2017 Andreas works as a Tenor & Bass
-                trombonist at the Gothenburg Opera House. Today he work at Head
-                of music in Malung - Salen and is an active freelance conductor.
-              </p>
-              <p>
-                Andreas has always been interested in the art of conducting and
-                he has undertook conducting studies at Gothenburg Universty of
-                Music and with Professor David King & Garry Cutt. In the past
-                years he has frequently been invited as guest conductor with
-                several brass bands and wind bands in Europe!
-              </p>
-              <p>
-                He have worked with solist and conductors like Prof. Garry Cutt,
-                Prof. David King, Phillip McCann, David Childs, James Morrison,
-                James Fountain, Lucy Cutt, Tom Davoren, Prof. Ingemar Roos,
-                Richard Phillips, Glenn van Looy, Lucy Cutt, Richard Marshall,
-                Owen Farr, Michael Becquet, Chris Houlding, Mogens Andresen,
-                Nils Landgren, Stefan Schulz, Øystein Baadsvik.
-              </p>
-              <p>
-                Andreas was the Co-founder, Chairman and Resident Conductor of
-                Windcorp Brassband 2005-2016. He has won the Swedish National
-                Championships as a conductor and player on 11 occasions and
-                represented Sweden at the European Championships 5 times.
-              </p>
-              <p>
-                In July 2009 Andreas was invited to play Solo Trombone with
-                Fodens Band at The English Nationals in Preston and with
-                Grimethorpe Colliery Band at British Open 2011.
-              </p>
-              <p>
-                In 2012 he made a short apperance with The Fairey Band on 2nd
-                euphonium at the Whit Friday Marches Contest.
-              </p>
-              <p>
-                In 2015 he was visiting trombone tutor at National Youth
-                Brassband of Wales.
-              </p>
-              <p>
-                In 2016 Andreas conducted Windcorp Brassband at Whit Friday
-                Marches to a 5th place in Delph and 1st place at Uppermill. This
-                was the first time a non UK Band won that contest.
-              </p>
-              <p>
-                Andreas was a a member of Wallberg Brass Band (Schweiz)
-                2011-2015.
-              </p>
-              <p>
-                In february 2018 Andreas was appointed Professional Conductor
-                for Tongwynlais Temperance Band, Wales. He made his first
-                appearance with the band at the Welsh Area contest. After
-                qualifying he is now the first swedish conductor ever to conduct
-                at the National Final Championships of Great Britain in Royal
-                Albert Hall, London october 2018.
-              </p>
-            </div>
-            <div class="clear"></div>
-          </div>
-        </div>
-      </div>
-
-      <div class="parallax__group bg">
-        <div class="bg_overflow">
-          <div class="parallax__layer parallax__layer--back"></div>
-        </div>
-      </div>
       <div id="group_kontakt" class="parallax__group content_group">
         <a id="kontakt" class="anchor"></a>
         <div class="parallax__layer parallax__layer--base">
@@ -683,15 +603,7 @@
             document.getElementById("group_styrelse").offsetHeight * 0.5 +
             "px";
         }
-        if (
-          window.innerHeight >
-          document.getElementById("group_dirigent").offsetHeight
-        ) {
-          document.getElementById("dirigent").style.top =
-            -window.innerHeight * 0.5 +
-            document.getElementById("group_dirigent").offsetHeight * 0.5 +
-            "px";
-        }
+
         if (
           window.innerHeight >
           document.getElementById("group_kontakt").offsetHeight
