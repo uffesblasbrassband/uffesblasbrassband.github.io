@@ -100,7 +100,6 @@
                   <nav id="nav">
                     <ul>
                       <li><a href="#bandet">Bandet</a></li>
-                      <li><a href="#kalender">Kalender</a></li>
                       <li><a href="#media">Media</a></li>
                       <li><a href="#styrelse">Styrelse</a></li>
                       <li><a href="#kontakt">Kontakt</a></li>
@@ -160,44 +159,6 @@
               </p>
             </div>
             <div class="clear"></div>
-          </div>
-        </div>
-      </div>
-
-      <div class="parallax__group bg">
-        <div class="bg_overflow">
-          <div class="parallax__layer parallax__layer--back"></div>
-        </div>
-      </div>
-      <div id="group_kalender" class="parallax__group content_group">
-        <a id="kalender" class="anchor"></a>
-        <div class="parallax__layer parallax__layer--base">
-          <div class="content">
-            <div class="content_inner">
-              <h2>Kalender 2019</h2>
-              <table>
-                <tr>
-                  <td>31 augusti - 1 september</td>
-                  <td>Repetition</td>
-                </tr>
-                <tr>
-                  <td>27-29 september</td>
-                  <td>Repetition</td>
-                </tr>
-                <tr>
-                  <td>19-20 oktober</td>
-                  <td>Repetition</td>
-                </tr>
-                <tr>
-                  <td>9-10 November</td>
-                  <td>Repetition</td>
-                </tr>
-                <tr>
-                  <td>15-17 November</td>
-                  <td>Swedish National Championships</td>
-                </tr>
-              </table>
-            </div>
           </div>
         </div>
       </div>
@@ -354,15 +315,6 @@
           document.getElementById("bandet").style.top =
             -window.innerHeight * 0.5 +
             document.getElementById("group_bandet").offsetHeight * 0.5 +
-            "px";
-        }
-        if (
-          window.innerHeight >
-          document.getElementById("group_kalender").offsetHeight
-        ) {
-          document.getElementById("kalender").style.top =
-            -window.innerHeight * 0.5 +
-            document.getElementById("group_kalender").offsetHeight * 0.5 +
             "px";
         }
         if (
